@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  os_and_c:
+    image: os_and_c
+    volumes:
+      - ./:/usr/src/app
+    command: tail -F anything
